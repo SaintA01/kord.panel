@@ -11,22 +11,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "http://13.61.4.198",
-      "permanent": false
-    },
-    {
-      "source": "/server/:id",
-      "destination": "http://13.61.4.198/server/:id", 
-      "permanent": false
-    },
-    {
-      "source": "/:path*",
-      "destination": "http://13.61.4.198/:path*",
-      "permanent": false
-    }
   ]
 }

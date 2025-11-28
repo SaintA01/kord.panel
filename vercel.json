@@ -1,4 +1,17 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
   "redirects": [
     {
       "source": "/",
@@ -7,7 +20,7 @@
     },
     {
       "source": "/server/:id",
-      "destination": "http://13.61.4.198/server/:id",
+      "destination": "http://13.61.4.198/server/:id", 
       "permanent": false
     },
     {

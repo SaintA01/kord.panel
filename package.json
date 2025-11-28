@@ -1,0 +1,7 @@
+{
+  "name": "panel-redirect",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Redirect setup complete'"
+  }
+}

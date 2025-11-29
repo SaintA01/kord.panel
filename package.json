@@ -1,7 +1,4 @@
 {
   "name": "panel-redirect",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "mkdir -p public && echo '<!DOCTYPE html><html><head><meta http-equiv=\"refresh\" content=\"0; url=http://13.61.4.198\"><title>Redirecting</title></head><body><p>Redirecting to <a href=\"http://13.61.4.198\">Panel</a></p><script>window.location.href=\"http://13.61.4.198\"</script></body></html>' > public/index.html"
-  }
+  "version": "1.0.0"
 }

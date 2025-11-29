@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Redirecting to Panel...</title>
     <script>
         const fullPath = window.location.pathname + window.location.search + window.location.hash;
-        document.write(`<meta http-equiv="refresh" content="0; url=http://13.61.4.198${fullPath}">`);
+        window.location.href = "http://13.61.4.198" + fullPath;
     </script>
-    <title>Redirecting to Panel...</title>
 </head>
 <body>
-    <p>Redirecting to <a href="http://13.61.4.198" id="link">Panel</a></p>
+    <p>Redirecting to <a href="http://13.61.4.198" id="redirectLink">Panel</a></p>
     <script>
-        const path = window.location.pathname + window.location.search + window.location.hash;
-        document.getElementById('link').href = "http://13.61.4.198" + path;
+        document.getElementById('redirectLink').href = "http://13.61.4.198" + window.location.pathname + window.location.search + window.location.hash;
     </script>
 </body>
 </html>

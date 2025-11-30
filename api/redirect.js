@@ -1,6 +1,6 @@
 export default function redirect(req, res) {
   const path = req.url;
-  const redirectUrl = `http://13.61.4.198${path}`;
+  const redirectUrl = `http://ptero.kord.live${path}`;
   
   res.setHeader('Content-Type', 'text/html');
   res.send(`
